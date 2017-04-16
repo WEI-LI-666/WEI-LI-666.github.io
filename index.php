@@ -190,7 +190,7 @@
                         </div>
                         -->
                         <div class="col-lg-2  col-md-4 col-sm-6 col-xs-12 ">
-                            <h3> 聯絡信箱 </h3>
+                            <h3> 聯絡我 </h3>
                             <ul>
                                 <li>
                                     <!--
@@ -220,16 +220,16 @@
                             </ul>
                             <ul class="social">
                                 <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100000313167356" target="_blank"> <i class=" fa fa-facebook" aria-hidden="true"></i> </a>
+                                    <a href="https://www.facebook.com/profile.php?id=100000313167356"> <i class=" fa fa-facebook" aria-hidden="true"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/HSWijowLWu44zbB" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
+                                    <a href="https://twitter.com/HSWijowLWu44zbB"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://plus.google.com/u/0/114393703901866878769" target="_blank"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a>
+                                    <a href="https://plus.google.com/u/0/114393703901866878769"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/WEI-LI-666" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> </a>
+                                    <a href="https://github.com/WEI-LI-666"> <i class="fa fa-github" aria-hidden="true"></i> </a>
                                 </li>
                             </ul>
                         </div>
@@ -243,10 +243,11 @@
             <div class="footer-bottom">
                 <div class="container-fluid">
                     <p class="pull-left">
-                        Copyright &copy; 2016
-                        <script>
-                            new Date().getFullYear() > 2016 && document.write("-" + new Date().getFullYear());
-                        </script> Design by Willy. All Rights Reserved.
+                        <?php
+                        $fromYear = 2008; 
+                        $thisYear = (int)date('Y'); 
+                        echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');
+                        ?> Company.
                     </p>
                     <div class="pull-right">
                         <!--沒用到
