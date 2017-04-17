@@ -149,7 +149,7 @@ html {
 }
 
 body {
-    background: #222 url("theme/img/bg-desktop.jpg") center center fixed;
+    background: #222 url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/bg-desktop.jpg?raw=true") center center fixed;
     font-family: "Helvetica Neue", "Helvetica", arial, sans-serif;
     overflow-x: hidden;
     position: relative;
@@ -276,7 +276,7 @@ body {
     left: 44%;
     width: 11px;
     height: 17px;
-    background: url("theme/img/icon-marker.png");
+    background: url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-marker.png?raw=true");
 }
 
 #ticker-moment:hover {
@@ -1044,7 +1044,7 @@ body {
 #panes .pane li {
     margin: .5em 0;
     padding-left: 30px;
-    background: url("theme/img/icon-bullet.png") no-repeat 10px center;
+    background: url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-bullet.png?raw=true") no-repeat 10px center;
 }
 
 #panes .pane img {
@@ -1300,7 +1300,7 @@ body {
 }
 
 #about #about-trigger {
-    background: rgba(255, 255, 255, .4) url('theme/img/icon-info.png') no-repeat 7px 4px;
+    background: rgba(255, 255, 255, .4) url('https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-info.png?raw=true') no-repeat 7px 4px;
     width: 18px;
     height: 18px;
     overflow: hidden;
@@ -1318,7 +1318,7 @@ body {
 
 #about #about-trigger.close,
 #about #about-trigger.close:hover {
-    background: #e94700 url("theme/img/icon-close.png") no-repeat center;
+    background: #e94700 url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-close.png?raw=true") no-repeat center;
 }
 
 #about #about-trigger:before {
@@ -1402,7 +1402,7 @@ body {
 
 #about-pane ul#elsewhere li a {
     display: block;
-    background: rgba(255, 255, 255, .05) url("theme/img/icon-social.png") no-repeat;
+    background: rgba(255, 255, 255, .05) url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-social.png?raw=true") no-repeat;
     color: #ccc;
     padding: 3px 10px 3px 35px;
     text-decoration: none;
