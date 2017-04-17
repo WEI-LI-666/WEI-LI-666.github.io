@@ -1402,7 +1402,7 @@ body {
 
 #about-pane ul#elsewhere li a {
     display: block;
-    background: rgba(255, 255, 255, .05) url("https://github.com/WEI-LI-666/WEI-LI-666.github.io/blob/master/theme/img/icon-social.png?raw=true") no-repeat;
+    background: rgba(255, 255, 255, .05) no-repeat;
     color: #ccc;
     padding: 3px 10px 3px 35px;
     text-decoration: none;
