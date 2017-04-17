@@ -1,7 +1,3 @@
-// Empty JS for your own code to be here
-
-/* script.js ----------------------*/
-
 // jquery 1.8.1
 (function(a, b) {
     function G(a) { var b = F[a] = {}; return p.each(a.split(s), function(a, c) { b[c] = !0 }), b }
