@@ -84,7 +84,13 @@
                         <ul id="ownmenu" class="ownmenu">
                             <li class="scroll active"><a href="#wrap">HOME</a></li>
                             <li class="scroll"><a href="#about">ABOUT</a></li>
+                            <li class="scroll"><a href="#portfolio">PORTFOLIO</a></li>
+                            <!--<li class="scroll"><a href="#services">services</a></li>-->
+                            <!--<li class="scroll"><a href="#team">TEAM</a></li>-->
+                            <li class="scroll"><a href="#blog">BLOG</a></li>
+                            <!--<li class="scroll"><a href="#price">price</a></li>-->
                             <li class="scroll"><a href="#contact">CONTACT</a></li>
+
                             <li><a href="index.html">Pages</a>
                                 <!--======= MEGA MENU =========-->
                                 <div class="megamenu full-width animated-3s fadeInUp">
@@ -327,22 +333,23 @@
 
                     <!-- Work Filter -->
                     <ul class="tabs portfolio-filter text-center margin-bottom-80 animate fadeInUp" data-wow-delay="0.4s">
-                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-branding-design">...</a></li>
-                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-photography">...</a></li>
-                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-web-design">...</a></li>
+                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-view-all">View All</a></li>
+                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-program-design">Program-design</a></li>
+                        <li class="tab-title filter-item"><a href="#." data-filter=".pf-web-design">Web-design</a></li>
                         <li class="tab-title filter-item"><a href="#." data-filter=".pf-digital-art">...</a></li>
                         <li class="tab-title filter-item"><a class="active" href="#." data-filter="*"><i class="fa fa-plus"></i></a></li>
                     </ul>
                 </div>
+
 
                 <!-- PORTFOLIO ITEMS -->
                 <div class="items row col-4 animate fadeInUp" data-wow-delay="0.4s">
 
                     <!-- ITEM -->
                     <!-- Class 裡面"pf-..."為分類-->
-                    <!-- <article class="portfolio-item pf-branding-design pf-web-design">
+                    <!-- <article class="portfolio-item pf-view-all pf-web-design">
                         <div class="portfolio-image">
-                            <a href="#."> <img alt="Open Imagination" src="images/portfolio/1/portfolio-1.png"> </a>
+                            <a href="#."> <img alt="Open Imagination" src="images/portfolio/portfolio-1.png"> </a>
                         </div>
                         <div class="portfolio-overlay">
                             <div class="position-center-center"> <span><a href="#.">Fashion</a></span>
@@ -353,23 +360,120 @@
                     -->
                 </div>
             </section>
-
-            <!-- Pricing Table -->
-            <section id="price" class="pricing padding-bottom-80 padding-top-80">
+            <!-- FACTS -->
+            <section class="facts padding-top-90 padding-bottom-90" style="background-image: url('images/fact/bg-parallax-1.png')">
                 <div class="container">
-                    <!-- Heading Blog 
+                    <div class="row counter">
+                        <!-- A section -->
+                        <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
+                            <div class="c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="35" data-from="0">35</span> </span>
+                                <h5>A section</h5>
+                            </div>
+                        </div>
+
+                        <!-- B section -->
+                        <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.8s">
+                            <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="5225" data-from="0">5225</span> </span>
+                                <h5>B section</h5>
+                            </div>
+                        </div>
+
+                        <!-- C section -->
+                        <div class="col-md-3 columns margin-bottom-30 animate fadeInRight" data-wow-delay="0.4s">
+                            <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="4977" data-from="0">4977</span> </span>
+                                <h5>C section</h5>
+                            </div>
+                        </div>
+
+                        <!-- D section -->
+                        <div class="col-md-3 columns margin-bottom-30 animate fadeInRight" data-wow-delay="0.8s">
+                            <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="178" data-from="0">178</span> </span>
+                                <h5>D section</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog -->
+            <section id="blog" class="blog padding-top-80">
+                <div class="container">
+                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                        <h3>Latest Blog</h3>
+                        <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image" /></div>
+                        <span>Tell Your Story</span> </div>
+                </div>
+
+                <!-- Blog -->
+                <div class="container-fluid">
+
+                    <!-- Blog Row -->
+                    <div class="posts posts-list list-style-1 row">
+
+                        <!-- Blog -->
+
+                        <div class="entry col-lg-6 no-padding animate fadeInLeft" data-wow-delay="0.4s">
+                            <div class="entry-image">
+                                <a href="#."> <img class="responsive-img" src="images/blog/blog-1.png" alt="Blog Thumbnail Image" /> </a>
+                            </div>
+                            <div class="entry-body"> <span class="entry-category">Branding design</span>
+                                <h4 class="entry-title"><a href="#.">Leeds Juicery</a></h4>
+                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <a href="#." class="more-link">Read More <i class="fa  fa-long-arrow-right"></i></a> </div>
+                        </div>
+
+                        <!-- Blog -->
+                        <div class="entry col-lg-6 no-padding animate fadeInRight" data-wow-delay="0.4s">
+                            <div class="entry-image">
+                                <a href="#."> <img class="responsive-img" src="images/blog/blog-2.png" alt="Blog Thumbnail Image" /> </a>
+                            </div>
+                            <div class="entry-body"> <span class="entry-category">Motion Graphic</span>
+                                <h4 class="entry-title"><a href="#.">Hello Itaewon Project</a></h4>
+                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
+                        </div>
+
+                        <!-- Blog -->
+                        <div class="entry entry-image-right col-lg-6 no-padding animate fadeInRight" data-wow-delay="0.4s">
+                            <div class="entry-image">
+                                <a href="#."> <img class="responsive-img" src="images/blog/blog-3.png" alt="Blog Thumbnail Image" /> </a>
+                            </div>
+                            <div class="entry-body"> <span class="entry-category">Lookbook seasonal</span>
+                                <h4 class="entry-title"><a href="#.">Brooklyn</a></h4>
+                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
+                        </div>
+
+
+                        <!-- Blog -->
+                        <div class="entry entry-image-right col-lg-6 no-padding animate fadeInLeft" data-wow-delay="0.4s">
+                            <div class="entry-image">
+                                <a href="#."> <img class="responsive-img" src="images/blog/blog-4.png" alt="Blog Thumbnail Image" /> </a>
+                            </div>
+                            <div class="entry-body"> <span class="entry-category">Photography</span>
+                                <h4 class="entry-title"><a href="#.">Maxi Dress</a></h4>
+                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pricing Table -->
+                <section id="price" class="pricing padding-bottom-80 padding-top-80">
+                    <div class="container">
+                        <!-- Heading Blog 
                     <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
                         <h3>Pricing &amp; Plans</h3>
                         <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image" /></div>
                         <span>Get Your Plans for Work</span> </div>-->
 
-                    <!-- Pricing Table Row
+                        <!-- Pricing Table Row
                     <div class="text-center">
                         <h5 class="text-uppercase margin-bottom-65">Register now <span class="font-crimson">Or</span> try it free for 30 days</h5>
                     </div> -->
 
-                    <div class="row">
-                        <!-- Basic Plan 
+                        <div class="row">
+                            <!-- Basic Plan 
                         <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
                             <ul class="pricing-table style-1 hover-up hover-shadow">
                                 <li class="title">Basic Plan</li>
@@ -384,130 +488,174 @@
                             </ul>
                         </div>
                         -->
+                            <!-- Premium Plan
+                        <div class="col-md-3 margin-bottom-30 animate fadeInRight" data-wow-delay="0.8s">
+                            <ul class="pricing-table style-1 hover-up hover-shadow">
+                            <li class="title">Premium Plan</li>
+                            <li class="bullet-item">15 Email Account</li>
+                            <li class="bullet-item">100Gb Space <i class="fa fa-check text-color-primary"></i></li>
+                            <li class="bullet-item">1 Domain Name</li>
+                            <li class="bullet-item">500Gb Bandwidth <i class="fa fa-check text-color-primary"></i></li>
+                            <li class="bullet-item">25 MySQL Databases</li>
+                            <li class="bullet-item">Enhanced Sercurity</li>
+                            <li class="price"><span class="currency">$</span>185<span class="period">monthy</span></li>
+                            <li class="cta-button"><a class="btn dark"  href="#.">Get Plan</a></li>
+                            </ul>
+                        </div>
+                         -->
 
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Contact Us -->
-            <section id="contact" class="contact padding-top-90">
-                <div class="container">
-
-                    <!-- Main Heading  -->
-                    <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
-                        <h3>Get In Touch</h3>
-                        <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image" /></div>
-                        <span>Suport Fast &amp; Pro 24/7</span> </div>
-                </div>
-
-                <!-- Contact  -->
-                <div class="padding-top-80 padding-bottom-80 bg-parallax" style="background-image: url('images/contact/contact-1.png')">
+                <!-- Contact Us -->
+                <section id="contact" class="contact padding-top-90">
                     <div class="container">
-                        <div class="row">
 
-                            <!-- Phone Number  -->
-                            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
-                                <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-xlarge">
-                                    <div class="ib-icon"> <i class="fa fa-mobile text-primary"></i> </div>
-                                    <div class="ib-info text-white">
-                                        <p>+886 930233860</p>
+                        <!-- Main Heading  -->
+                        <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                            <h3>Get In Touch</h3>
+                            <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image" /></div>
+                            <span>Suport Fast &amp; Pro 24/7</span> </div>
+                    </div>
+
+                    <!-- Contact  -->
+                    <div class="padding-top-80 padding-bottom-80 bg-parallax" style="background-image: url('images/contact/contact-1.png')">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Phone Number  -->
+                                <div class="col-md-4 animate fadeInUp" data-wow-delay="0.4s">
+                                    <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-xlarge">
+                                        <div class="ib-icon"> <i class="fa fa-mobile text-primary"></i> </div>
+                                        <div class="ib-info text-white">
+                                            <p>+886 930233860</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Address -->
-                            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
-                                    <div class="ib-icon"> <i class="fa fa-map-marker text-primary"></i> </div>
-                                    <div class="ib-info text-white">
-                                        <p>居無定所</p>
+                                <!-- Address -->
+                                <div class="col-md-4 animate fadeInUp" data-wow-delay="0.6s">
+                                    <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                                        <div class="ib-icon"> <i class="fa fa-map-marker text-primary"></i> </div>
+                                        <div class="ib-info text-white">
+                                            <p>居無定所</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Email  -->
-                            <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
-                                <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
-                                    <div class="ib-icon"> <i class="fa fa-envelope-o text-primary"></i> </div>
-                                    <div class="ib-info">
-                                        <p class="no-margin-bottom"><a href="mailto:'arpk156258@outlook.com'" class="text-white">arpk156258@outlook.com</a></p>
+                                <!-- Email  -->
+                                <div class="col-md-4 animate fadeInUp" data-wow-delay="0.8s">
+                                    <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                                        <div class="ib-icon"> <i class="fa fa-envelope-o text-primary"></i> </div>
+                                        <div class="ib-info">
+                                            <p class="no-margin-bottom"><a href="mailto:'arpk156258@outlook.com'" class="text-white">arpk156258@outlook.com</a></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Form  -->
-                            <div class="col-md-12 margin-top-50 animate fadeInUp" data-wow-delay="0.4s">
-                                <div class="contact-form">
+                                <!-- Form  -->
+                                <div class="col-md-12 margin-top-50 animate fadeInUp" data-wow-delay="0.4s">
+                                    <div class="contact-form">
 
-                                    <!-- Success Msg -->
-                                    <div id="contact_message" class="success-msg animated fadeInUp"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
+                                        <!-- Success Msg -->
+                                        <div id="contact_message" class="success-msg animated fadeInUp"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
 
-                                    <!-- FORM -->
-                                    <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
-                                        <ul class="row">
-                                            <li class="col-sm-4">
-                                                <label>*<span> NAME</span>
+                                        <!-- FORM -->
+                                        <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+                                            <ul class="row">
+                                                <li class="col-sm-4">
+                                                    <label>*<span> NAME</span>
                                                 <input type="text" class="form-control" name="name" id="name" placeholder="">
                                             </label>
-                                            </li>
-                                            <li class="col-sm-4">
-                                                <label>* <span>EMAIL</span>
+                                                </li>
+                                                <li class="col-sm-4">
+                                                    <label>* <span>EMAIL</span>
                                                 <input type="text" class="form-control" name="email" id="email" placeholder="">
                                             </label>
-                                            </li>
-                                            <li class="col-sm-4">
-                                                <label>* <span>SUBJECT</span>
+                                                </li>
+                                                <li class="col-sm-4">
+                                                    <label>* <span>SUBJECT</span>
                                                 <input type="text" class="form-control" name="subject" id="subject" placeholder="">
                                             </label>
-                                            </li>
-                                            <li class="col-sm-12 margin-top-20">
-                                                <label> <span>CONTENT</span>
+                                                </li>
+                                                <li class="col-sm-12 margin-top-20">
+                                                    <label> <span>CONTENT</span>
                                                 <textarea class="form-control" name="message" id="message" rows="5" placeholder=""></textarea>
                                             </label>
-                                            </li>
-                                            <li class="col-sm-12">
-                                                <button type="submit" value="submit" id="btn_submit" onClick="proceed();">SEND ME</button>
-                                            </li>
-                                        </ul>
-                                    </form>
+                                                </li>
+                                                <li class="col-sm-12">
+                                                    <button type="submit" value="submit" id="btn_submit" onClick="proceed();" disabled>SEND ME</button>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <!-- Parthner -->
+                <section class="section-home section-parthner padding-top-80 padding-bottom-80">
+                    <div class="container">
+                        <!-- Main Heading -->
+                        <div class="heading-block text-center animate fadeInUp" data-wow-delay="0.4s">
+                            <h3>My Partner</h3>
+                            <div class="divider divider-short divider-center"><img class="i-div" src="images/divider/hammers.png" alt="Divider Icon Image" /></div>
+                            <span>Amazing Partners</span> </div>
+                        <!-- Pathner Images 
+                        <ul class="animate fadeInUp" data-wow-delay="0.4s">
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-1.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-2.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-3.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-4.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-5.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-6.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                            <li>
+                                <a href="#.."> <img class="img-responsive" src="images/partners/partner-7.png" alt="Our Partner Logo Image" /> </a>
+                            </li>
+                        </ul>
+                        <div class="text-center margin-top-50 animate fadeInUp" data-wow-delay="0.4s"> <a href="#." class="btn btn-large dark-border font-normal">Become Partner</a> </div>
+                        -->
+                    </div>
+                </section>
                 </div>
-            </section>
+                <!-- End Content -->
 
-            <!-- Parthner -->
-            <section class="section-home section-parthner padding-top-80 padding-bottom-80">
-                <div class="container">
-                    <!-- Main Heading -->
+                <!-- Footer -->
+                <footer id="footer">
+                    <div class="footer-wrapper">
 
-                </div>
-            </section>
-            </div>
-            <!-- End Content -->
-
-            <!-- Footer -->
-            <footer id="footer">
-                <div class="footer-wrapper">
-
-                    <!-- Footer Top -->
-                    <div class="footer-top">
-                        <div class="footer-top-wrapper">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- About Block -->
-                                    <div class="col-md-4">
-                                        <div class="block block-about">
-                                            <h3 class="block-title no-underline"><span class="text-primary">--這裡放字--</span></h3>
-                                            <div class="block-content">
-                                                <p>--這裡放字--.</p>
+                        <!-- Footer Top -->
+                        <div class="footer-top">
+                            <div class="footer-top-wrapper">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- About Block -->
+                                        <div class="col-md-4">
+                                            <div class="block block-about">
+                                                <h3 class="block-title no-underline"><span class="text-primary">--這裡放字--</span></h3>
+                                                <div class="block-content">
+                                                    <p>--這裡放字--.</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <!-- End About Block -->
+                                            <!-- End About Block -->
 
-                                        <!-- Footer Links Block -->
-                                        <!--
+                                            <!-- Footer Links Block -->
+                                            <!--
                                 <div class="col-md-2">
                                     <div class="block block-links">
                                         <h3 class="block-title"><span>Info</span></h3>
@@ -524,10 +672,10 @@
                                     </div>
                                 </div>
                                 -->
-                                        <!-- End Footer Links Block -->
+                                            <!-- End Footer Links Block -->
 
-                                        <!-- Twitter Widget Block -->
-                                        <!--
+                                            <!-- Twitter Widget Block -->
+                                            <!--
                                 <div class="col-md-3">
                                     <div class="block block-twitter-widget">
                                         <h3 class="block-title"><span>Twitter Widget</span></h3>
@@ -544,10 +692,10 @@
                                     </div>
                                 </div>
                                 -->
-                                        <!-- End Twitter Widget Block -->
+                                            <!-- End Twitter Widget Block -->
 
-                                        <!-- Instagram Widget Block -->
-                                        <!--
+                                            <!-- Instagram Widget Block -->
+                                            <!--
                                 <div class="col-md-3">
                                     <div class="block block-instagram-widget">
                                         <h3 class="block-title"><span>Instagram Widget</span></h3>
@@ -574,133 +722,133 @@
                                     </div>
                                 </div>
                                 -->
-                                        <!-- End Instagram Widget Block -->
+                                            <!-- End Instagram Widget Block -->
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Footer Top -->
-
-                        <!-- Footer Bottom -->
-                        <div class="footer-bottom">
-                            <div class="footer-bottom-wrapper">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6 copyright">
-                                            <p>&copy; 2015 ZAP Creative HTML Template. Designed By wpelite.</p>
-                                        </div>
-                                        <div class="col-md-6 social-links">
-                                            <ul class="right">
-                                                <li><a href="https://www.facebook.com/profile.php?id=100000313167356" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com/HSWijowLWu44zbB" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="https://github.com/WEI-LI-666" target="_blank"><i class="fa fa-github"></i></a></li>
-                                                <li><a href="https://plus.google.com/u/0/114393703901866878769"><i class="fa fa-google-plus" target="_blank"></i></a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Footer Bottom -->
-                    </div>
-            </footer>
-            <!-- End Footer -->
+                            <!-- End Footer Top -->
 
-            <!-- GO TO TOP -->
-            <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a>
-            <!-- GO TO TOP End -->
-            </div>
-            <!-- End Page Wrapper -->
-            <!--Style Switcher===========================================-->
-            <div class="color-switcher" id="choose_color"> <a href="#." class="picker_close"><i class="ion-gear-a" ></i></a>
-                <div class="theme-colours">
-                    <p class="font-crimson font-italic">Choose Colour style</p>
-                    <ul>
-                        <li>
-                            <a href="#." class="blue" id="blue"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="green" id="green"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="red" id="red"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="yellow" id="yellow"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="brown" id="brown"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="cyan" id="cyan"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="purple" id="purple"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="sky-blue" id="sky-blue"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="gray" id="gray"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="peter-river" id="peter-river"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="nephritis" id="nephritis"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="amethyst" id="amethyst"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="wet-asphalt" id="wet-asphalt"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="night-shade" id="night-shade"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="sun-flowers" id="sun-flowers"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="orange" id="orange"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="carrot" id="carrot"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="alizarin" id="alizarin"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="sliver" id="sliver"></a>
-                        </li>
-                        <li>
-                            <a href="#." class="green-sea" id="green-sea"></a>
-                        </li>
-                    </ul>
-                    <div class="layouts no-padding">
-                        <p class="font-crimson font-italic margin-top-20">Layout Style</p>
-                        <a href="#." id="boxed">BOX LAYOUT</a> <a href="#." id="wide">WIDE LAYOUT</a> </div>
+                            <!-- Footer Bottom -->
+                            <div class="footer-bottom">
+                                <div class="footer-bottom-wrapper">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6 copyright">
+                                                <p>&copy; 2015 ZAP Creative HTML Template. Designed By wpelite.</p>
+                                            </div>
+                                            <div class="col-md-6 social-links">
+                                                <ul class="right">
+                                                    <li><a href="https://www.facebook.com/profile.php?id=100000313167356" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="https://twitter.com/HSWijowLWu44zbB" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="https://github.com/WEI-LI-666" target="_blank"><i class="fa fa-github"></i></a></li>
+                                                    <li><a href="https://plus.google.com/u/0/114393703901866878769"><i class="fa fa-google-plus" target="_blank"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Footer Bottom -->
+                        </div>
+                </footer>
+                <!-- End Footer -->
+
+                <!-- GO TO TOP -->
+                <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a>
+                <!-- GO TO TOP End -->
                 </div>
-            </div>
+                <!-- End Page Wrapper -->
+                <!--Style Switcher===========================================-->
+                <div class="color-switcher" id="choose_color"> <a href="#." class="picker_close"><i class="ion-gear-a" ></i></a>
+                    <div class="theme-colours">
+                        <p class="font-crimson font-italic">Choose Colour style</p>
+                        <ul>
+                            <li>
+                                <a href="#." class="blue" id="blue"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="green" id="green"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="red" id="red"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="yellow" id="yellow"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="brown" id="brown"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="cyan" id="cyan"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="purple" id="purple"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="sky-blue" id="sky-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="gray" id="gray"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="peter-river" id="peter-river"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="nephritis" id="nephritis"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="amethyst" id="amethyst"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="wet-asphalt" id="wet-asphalt"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="night-shade" id="night-shade"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="sun-flowers" id="sun-flowers"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="orange" id="orange"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="carrot" id="carrot"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="alizarin" id="alizarin"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="sliver" id="sliver"></a>
+                            </li>
+                            <li>
+                                <a href="#." class="green-sea" id="green-sea"></a>
+                            </li>
+                        </ul>
+                        <div class="layouts no-padding">
+                            <p class="font-crimson font-italic margin-top-20">Layout Style</p>
+                            <a href="#." id="boxed">BOX LAYOUT</a> <a href="#." id="wide">WIDE LAYOUT</a> </div>
+                    </div>
+                </div>
 
-            <!-- JavaScripts -->
-            <script src="js/vendors/jquery/jquery.min.js"></script>
-            <script src="js/vendors/wow.min.js"></script>
-            <script src="js/vendors/bootstrap.min.js"></script>
-            <script src="js/vendors/own-menu.js"></script>
-            <script src="js/vendors/flexslider/jquery.flexslider-min.js"></script>
-            <script src="js/vendors/jquery.countTo.js"></script>
-            <script src="js/vendors/jquery.isotope.min.js"></script>
-            <script src="js/vendors/jquery.bxslider.min.js"></script>
-            <script src="js/vendors/owl.carousel.min.js"></script>
-            <script src="js/vendors/jquery.sticky.js"></script>
-            <script src="js/vendors/color-switcher.js"></script>
+                <!-- JavaScripts -->
+                <script src="js/vendors/jquery/jquery.min.js"></script>
+                <script src="js/vendors/wow.min.js"></script>
+                <script src="js/vendors/bootstrap.min.js"></script>
+                <script src="js/vendors/own-menu.js"></script>
+                <script src="js/vendors/flexslider/jquery.flexslider-min.js"></script>
+                <script src="js/vendors/jquery.countTo.js"></script>
+                <script src="js/vendors/jquery.isotope.min.js"></script>
+                <script src="js/vendors/jquery.bxslider.min.js"></script>
+                <script src="js/vendors/owl.carousel.min.js"></script>
+                <script src="js/vendors/jquery.sticky.js"></script>
+                <script src="js/vendors/color-switcher.js"></script>
 
-            <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-            <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-            <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-            <script src="js/zap.js"></script>
+                <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+                <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+                <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+                <script src="js/zap.js"></script>
 </body>
 
 </html>

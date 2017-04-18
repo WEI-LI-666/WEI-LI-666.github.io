@@ -5653,7 +5653,7 @@ select:focus {
 #footer {
     background-color: #202020;
     color: #636363;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #footer li {
@@ -5698,7 +5698,7 @@ select:focus {
 
 #footer .block .block-title {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1px;
     margin-top: 0;
     margin-bottom: 25px;
@@ -5799,7 +5799,7 @@ select:focus {
 }
 
 .social-links li a {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .social-links li {
