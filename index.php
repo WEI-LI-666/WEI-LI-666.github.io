@@ -1,82 +1,164 @@
 <!doctype html>
+
 <html class="no-js" lang="zh-TW">
 
+
+
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta charset="UTF-8" />
+
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
     <meta name="author" content="M_Adnan" />
+
     <!-- Document Title -->
+
     <title>WELCOME TO WILLY'S WEBSITE</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
 
     <!-- Favicon -->
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
 
     <!-- FontsOnline -->
+
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
+
+
     <!-- StyleSheets -->
+
     <link rel="stylesheet" href="css/ionicons.min.css">
+
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/main.css">
+
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/responsive.css">
 
+
+
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
+
+
     <!-- COLORS -->
+
     <link rel="stylesheet" id="color" href="css/default.css">
 
+
+
     <!-- FONTS -->
+
     <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-49851.js"></script>
 
+
+
+
+
     <!-- JavaScripts -->
+
     <script src="js/vendors/modernizr.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
     <!--[if lt IE 9]>
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
+
 </head>
+
+
 
 <body>
 
+
+
     <!-- LOADER ===========================================-->
+
     <div id="loader">
+
         <div class="loader">
+
             <div class="position-center-center">
+
                 <!-- <img src="images/logo-dark.png" alt=""> -->
+
                 <p class="font-crimson text-center">Please Wait...</p>
+
                 <div class="loading">
+
                     <div class="ball"></div>
+
                     <div class="ball"></div>
+
                     <div class="ball"></div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
+
+
     <!-- Page Wrapper -->
+
     <div id="wrap">
 
+
+
         <!-- Header -->
+
         <header class="header single-pages">
+
             <div class="sticky dark-header">
+
                 <div class="container">
+
                     <div class="logo">
+
                         <!--
+
                         <a href="index.html"><img src="images/logo.png" alt=""></a>
+
                         -->
+
                     </div>
+
+
 
                     <!-- Nav -->
 
@@ -183,6 +265,7 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption biglargetext sfr tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-90" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.06"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -194,6 +277,7 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption verybiglargetext sfr tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="40" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.07"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Nothing to say now. </div>
 
 
@@ -201,6 +285,7 @@
                             <!-- LAYER NR. 3 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="140" data-speed="500" data-start="1900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">I am Willy from Taipei-Taiwan. </div>
 
 
@@ -208,6 +293,7 @@
                             <!-- LAYER NR. 4 -->
 
                             <div class="tp-caption lfb tp-scrollbelowslider" data-x="center" data-hoffset="0" data-y="bottom" data-voffset="-50" data-speed="500" data-start="2400" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+
                                 data-scrolloffset="0" style="z-index: 8;"><img src="images/sliders/6/enter.png" alt=""> </div>
 
                         </li>
@@ -227,6 +313,7 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-170" data-speed="600" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
+
                                 data-endspeed="300" style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -238,6 +325,7 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-100" data-speed="600" data-start="2500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; font-size:24px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -291,6 +379,7 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption font-bold skewfromright tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-60" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; font-size:60px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -302,6 +391,7 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="10" data-speed="500" data-start="2100" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
+
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; font-size:30px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
