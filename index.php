@@ -265,7 +265,6 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption biglargetext sfr tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-90" data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.06"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -277,7 +276,6 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption verybiglargetext sfr tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="40" data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.07"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Nothing to say now. </div>
 
 
@@ -285,7 +283,6 @@
                             <!-- LAYER NR. 3 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="140" data-speed="500" data-start="1900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">I am Willy from Taipei-Taiwan. </div>
 
 
@@ -293,7 +290,6 @@
                             <!-- LAYER NR. 4 -->
 
                             <div class="tp-caption lfb tp-scrollbelowslider" data-x="center" data-hoffset="0" data-y="bottom" data-voffset="-50" data-speed="500" data-start="2400" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-
                                 data-scrolloffset="0" style="z-index: 8;"><img src="images/sliders/6/enter.png" alt=""> </div>
 
                         </li>
@@ -313,7 +309,6 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-170" data-speed="600" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.07" data-endelementdelay="0.1"
-
                                 data-endspeed="300" style="z-index: 5; font-size:40px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -325,7 +320,6 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-100" data-speed="600" data-start="2500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; font-size:24px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -379,7 +373,6 @@
                             <!-- LAYER NR. 1 -->
 
                             <div class="tp-caption font-bold skewfromright tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="-60" data-speed="300" data-start="1000" data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; font-size:60px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -391,7 +384,6 @@
                             <!-- LAYER NR. 2 -->
 
                             <div class="tp-caption font-crimson font-italic sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="10" data-speed="500" data-start="2100" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1"
-
                                 data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; font-size:30px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
 
                                 <!--這裡放字-->
@@ -485,125 +477,47 @@
                                 <h2 class="margin-bottom-30 animate fadeInDown" data-wow-delay="0.5s">歡迎來到Willy的網站</h2>
 
                             </div>
+                            <p>
+                                <div class="col-md-9 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
+                                    <ul class="pricing-table style-1 hover-up hover-shadow">
 
-                            <p class="animate fadeIn col-md-4" data-wow-delay="0.5s">
+                                        <li class="title">Basic Information</li>
 
-                                <h3 class="text-left" style="font-weight: bold">
+                                        <li class="bullet-item-left">Chinese Name : 陳威利</li>
 
-                                    基本資料
+                                        <li class="bullet-item-left">English Name : Willy
+                                            <!--<i class="fa fa-check text-color-primary"></i>--></li>
 
-                                </h3>
-
-                                <p>
-
-                                    <ul style="font-weight: bold ; font-size:120%">
-
-                                        <li>
-
-                                            中文姓名 : 陳威利
-
-                                        </li>
-
-                                        <li>
-
-                                            英文名字 : Willy
-
-                                        </li>
+                                        <li class="bullet-item-left">Hobbies : basketball 、 billards 、 tennis 、 video games 、 reading novels</li>
 
                                     </ul>
+                                </div>
 
-                                </p>
+                                <div class="col-md-9 margin-bottom-30 animate fadeInRight" data-wow-delay="0.6s">
+                                    <ul class="pricing-table style-1 hover-up hover-shadow">
 
-                                <h3 style="font-weight: bold">
+                                        <li class="title">Skills</li>
 
-                                    能力專長
+                                        <li class="bullet-item-left">web-programming-language : Html 、 CSS 、 Javascript</li>
 
-                                </h3>
-
-                                <p>
-
-                                    <div>
-
-                                        <ul style="font-weight: bold ; font-size:120%">
-
-                                            <li>
-
-                                                網頁語言 : Html 、 CSS 、 Javascript
-
-                                            </li>
-
-                                            <li>
-
-                                                程式語言 : C 、 VB 、 一點點的JAVA 、 幾乎入門的Android
-
-                                            </li>
-
-                                            <li>
-
-                                                專長 : 程式設計 、 快速上手所有遊戲(對不起是屁話)
-
-                                            </li>
-
-                                        </ul>
-
-                                    </div>
-
-                                </p>
-
-                                <h3 style="font-weight: bold">
-
-                                    學歷
-
-                                </h3>
-
-                                <p>
-
-                                    <ul style="font-weight: bold ; font-size:120%">
-
-                                        <li>
-
-                                            2015.09 ~ 臺灣科技大學 資訊管理系
-
-                                        </li>
-
-                                        <li>
-
-                                            2012.09 ~ 2015.06 僑泰中學 畢業
-
-                                        </li>
+                                        <li class="bullet-item-left">programming-language : C 、 VB 、 JAVA (now learning) 、 Android (now learning)
+                                            <!--<i class="fa fa-check text-color-primary"></i>--></li>
 
                                     </ul>
+                                </div>
 
-                                </p>
+                                <div class="col-md-9 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.8s">
+                                    <ul class="pricing-table style-1 hover-up hover-shadow">
 
-                                <h3 style="font-weight: bold">
+                                        <li class="title">Education</li>
 
-                                    個人興趣
+                                        <li class="bullet-item-left">2015.09 ~ 臺灣科技大學 資訊管理系 (NTUST MIS)</li>
 
-                                </h3>
-
-                                <p>
-
-                                    <ul style="font-weight: bold ; font-size:120%">
-
-                                        <li>
-
-                                            閱讀(小說、散文)、獨處、聽音樂、玩遊戲
-
-                                        </li>
-
-                                        <li>
-
-                                            與一戰、二戰、以及神話相關的歷史或故事
-
-                                        </li>
-
+                                        <li class="bullet-item-left">2012.09 ~ 2015.06 僑泰中學 畢業
+                                            <!--<i class="fa fa-check text-color-primary"></i>--></li>
                                     </ul>
-
-                                </p>
-
+                                </div>
                             </p>
-
 
 
                             <!-- Icon Row -->
@@ -1080,7 +994,7 @@
 
                                         <div class="ib-info text-white">
 
-                                            <p>居無定所</p>
+                                            <p>no fixed abode</p>
 
                                         </div>
 
