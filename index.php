@@ -637,13 +637,13 @@
             </section>
 
             <!-- FACTS -->
-            <!--
+            
             <section class="facts padding-top-90 padding-bottom-90" style="background-image: url('images/fact/bg-parallax-1.png')">
 
                 <div class="container">
 
                     <div class="row counter">
-                    -->
+            
                         <!-- A section -->
                         <!--
                         <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
