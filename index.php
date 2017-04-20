@@ -637,15 +637,15 @@
             </section>
 
             <!-- FACTS -->
-
+            <!--
             <section class="facts padding-top-90 padding-bottom-90" style="background-image: url('images/fact/bg-parallax-1.png')">
 
                 <div class="container">
 
                     <div class="row counter">
-
+                    -->
                         <!-- A section -->
-
+                        <!--
                         <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
 
                             <div class="c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="35" data-from="0">35</span> </span>
@@ -655,11 +655,11 @@
                             </div>
 
                         </div>
-
+                        -->
 
 
                         <!-- B section -->
-
+                        <!--
                         <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.8s">
 
                             <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="5225" data-from="0">5225</span> </span>
@@ -669,11 +669,11 @@
                             </div>
 
                         </div>
-
+                        -->
 
 
                         <!-- C section -->
-
+                        <!--
                         <div class="col-md-3 columns margin-bottom-30 animate fadeInRight" data-wow-delay="0.4s">
 
                             <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="4977" data-from="0">4977</span> </span>
@@ -683,11 +683,11 @@
                             </div>
 
                         </div>
-
+                        -->
 
 
                         <!-- D section -->
-
+                        <!--
                         <div class="col-md-3 columns margin-bottom-30 animate fadeInRight" data-wow-delay="0.8s">
 
                             <div class="counter c-style-4 c-text-white"> <span class="number"> <span class="timer" data-speed="2000" data-refresh-interval="100" data-to="178" data-from="0">178</span> </span>
@@ -697,7 +697,7 @@
                             </div>
 
                         </div>
-
+                        -->
                     </div>
 
                 </div>
@@ -748,11 +748,11 @@
 
                             </div>
 
-                            <div class="entry-body"> <span class="entry-category">Branding design</span>
+                            <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#.">Leeds Juicery</a></h4>
+                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
 
-                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <p class="entry-content"><!--words--> </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa  fa-long-arrow-right"></i></a> </div>
 
@@ -770,11 +770,11 @@
 
                             </div>
 
-                            <div class="entry-body"> <span class="entry-category">Motion Graphic</span>
+                            <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#.">Hello Itaewon Project</a></h4>
+                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
 
-                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <p class="entry-content"><!--words--> </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
@@ -792,11 +792,11 @@
 
                             </div>
 
-                            <div class="entry-body"> <span class="entry-category">Lookbook seasonal</span>
+                            <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#.">Brooklyn</a></h4>
+                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
 
-                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <p class="entry-content"><!--words--> </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
@@ -816,11 +816,11 @@
 
                             </div>
 
-                            <div class="entry-body"> <span class="entry-category">Photography</span>
+                            <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#.">Maxi Dress</a></h4>
+                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
 
-                                <p class="entry-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
+                                <p class="entry-content"><!--words--> </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
