@@ -96,6 +96,7 @@
 
     <![endif]-->
 
+    <!--BACKGROUND MUSIC-->
 </head>
 
 
@@ -637,13 +638,13 @@
             </section>
 
             <!-- FACTS -->
-            
+
             <section class="facts padding-top-90 padding-bottom-90" style="background-image: url('images/fact/bg-parallax-1.png')">
 
                 <div class="container">
 
                     <div class="row counter">
-            
+
                         <!-- A section -->
                         <!--
                         <div class="col-md-3 margin-bottom-30 animate fadeInLeft" data-wow-delay="0.4s">
@@ -750,9 +751,15 @@
 
                             <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
+                                <h4 class="entry-title">
+                                    <a href="#.">
+                                        <!--words-->
+                                    </a>
+                                </h4>
 
-                                <p class="entry-content"><!--words--> </p>
+                                <p class="entry-content">
+                                    <!--words-->
+                                </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa  fa-long-arrow-right"></i></a> </div>
 
@@ -772,9 +779,15 @@
 
                             <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
+                                <h4 class="entry-title">
+                                    <a href="#.">
+                                        <!--words-->
+                                    </a>
+                                </h4>
 
-                                <p class="entry-content"><!--words--> </p>
+                                <p class="entry-content">
+                                    <!--words-->
+                                </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
@@ -794,9 +807,15 @@
 
                             <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
+                                <h4 class="entry-title">
+                                    <a href="#.">
+                                        <!--words-->
+                                    </a>
+                                </h4>
 
-                                <p class="entry-content"><!--words--> </p>
+                                <p class="entry-content">
+                                    <!--words-->
+                                </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
@@ -818,9 +837,15 @@
 
                             <div class="entry-body"> <span class="entry-category"><!--words--></span>
 
-                                <h4 class="entry-title"><a href="#."><!--words--></a></h4>
+                                <h4 class="entry-title">
+                                    <a href="#.">
+                                        <!--words-->
+                                    </a>
+                                </h4>
 
-                                <p class="entry-content"><!--words--> </p>
+                                <p class="entry-content">
+                                    <!--words-->
+                                </p>
 
                                 <a href="#." class="more-link">Read More <i class="fa fa-long-arrow-right"></i></a> </div>
 
@@ -1214,7 +1239,10 @@
 
                                                 <div class="block-content">
 
-                                                    <p>--這裡放字--.</p>
+                                                    <p>River Flows In You - Yiruma [Piano Tutorial] (Synthesia)</p>
+                                                    <audio controls autoplay loop>
+                                                        <source src="background-music/River Flows In You - Yiruma [Piano Tutorial] (Synthesia).mp3" type="audio/mpeg">
+                                                    </audio>
 
                                                 </div>
 
@@ -1227,38 +1255,36 @@
                                             <!-- Footer Links Block -->
 
                                             <!--
+                                            <div class="col-md-2">
 
-                                <div class="col-md-2">
+                                                <div class="block block-links">
 
-                                    <div class="block block-links">
+                                                    <h3 class="block-title"><span>Info</span></h3>
 
-                                        <h3 class="block-title"><span>Info</span></h3>
+                                                    <div class="block-content">
 
-                                        <div class="block-content">
+                                                        <ul>
 
-                                            <ul>
+                                                            <li><a href="#.">Theme Features</a></li>
 
-                                                <li><a href="#.">Theme Features</a></li>
+                                                            <li><a href="#.">Page Builder</a></li>
 
-                                                <li><a href="#.">Page Builder</a></li>
+                                                            <li><a href="#.">Privacy Policy</a></li>
 
-                                                <li><a href="#.">Privacy Policy</a></li>
+                                                            <li><a href="#.">Shop Rules</a></li>
 
-                                                <li><a href="#.">Shop Rules</a></li>
+                                                            <li><a href="#.">Services</a></li>
 
-                                                <li><a href="#.">Services</a></li>
+                                                            <li><a href="#.">Gallery Layout</a></li>
 
-                                                <li><a href="#.">Gallery Layout</a></li>
+                                                        </ul>
 
-                                            </ul>
+                                                    </div>
 
-                                        </div>
+                                                </div>
 
-                                    </div>
-
-                                </div>
-
-                                -->
+                                            </div>
+                                            -->
 
                                             <!-- End Footer Links Block -->
 
@@ -1268,37 +1294,37 @@
 
                                             <!--
 
-                                <div class="col-md-3">
+                                            <div class="col-md-3">
 
-                                    <div class="block block-twitter-widget">
+                                                <div class="block block-twitter-widget">
 
-                                        <h3 class="block-title"><span>Twitter Widget</span></h3>
+                                                    <h3 class="block-title"><span>Twitter Widget</span></h3>
 
-                                        <div class="block-content">
+                                                    <div class="block-content">
 
-                                            <div class="twitter-item">
+                                                        <div class="twitter-item">
 
-                                                <div class="twitter-content"> Looking for an awesome CREATIVE WordPress Theme? Esquise was updated and optimized to run even better. Find it here: <a href="http://t.co/0WWEMQEQ48" target="_blank">http://t.co/0WWEMQEQ48</a> </div>
+                                                            <div class="twitter-content"> Looking for an awesome CREATIVE WordPress Theme? Esquise was updated and optimized to run even better. Find it here: <a href="http://t.co/0WWEMQEQ48" target="_blank">http://t.co/0WWEMQEQ48</a> </div>
 
-                                                <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">01 day ago</span> </div>
+                                                            <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">01 day ago</span> </div>
+
+                                                        </div>
+
+                                                        <div class="twitter-item">
+
+                                                            <div class="twitter-content"> It is a long established fact that a reader will be distracted by the readable . Find it here: <a href="http://t.co/0WWEMQEQ48" target="_blank">http://t.co/0WWEMQEQ48</a> </div>
+
+                                                            <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">02 days ago</span> </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
 
                                             </div>
 
-                                            <div class="twitter-item">
-
-                                                <div class="twitter-content"> It is a long established fact that a reader will be distracted by the readable . Find it here: <a href="http://t.co/0WWEMQEQ48" target="_blank">http://t.co/0WWEMQEQ48</a> </div>
-
-                                                <div class="twitter-context"> <i class="fa fa-twitter"></i><span class="twitter-date">02 days ago</span> </div>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                -->
+                                            -->
 
                                             <!-- End Twitter Widget Block -->
 
@@ -1308,57 +1334,57 @@
 
                                             <!--
 
-                                <div class="col-md-3">
+                                            <div class="col-md-3">
 
-                                    <div class="block block-instagram-widget">
+                                                <div class="block block-instagram-widget">
 
-                                        <h3 class="block-title"><span>Instagram Widget</span></h3>
+                                                    <h3 class="block-title"><span>Instagram Widget</span></h3>
 
-                                        <ul>
+                                                    <ul>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_01.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_01.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_02.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_02.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_03.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_03.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_04.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_04.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_05.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_05.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                            <li>
+                                                        <li>
 
-                                                <a href="#.."> <img src="images/footer/footer_instagram_06.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
+                                                            <a href="#.."> <img src="images/footer/footer_instagram_06.png" alt="" /> <span class="overlay"><i class="fa fa-search"></i></span> </a>
 
-                                            </li>
+                                                        </li>
 
-                                        </ul>
+                                                    </ul>
 
-                                    </div>
+                                                </div>
 
-                                </div>
+                                            </div>
 
-                                -->
+                                            -->
 
                                             <!-- End Instagram Widget Block -->
 
