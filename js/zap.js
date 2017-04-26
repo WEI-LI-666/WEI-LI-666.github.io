@@ -321,10 +321,10 @@ function checkmail(input) {
 }
 
 function proceed() {
-    var name = document.getElementById("name");
-    var email = document.getElementById("email");
-    var company = document.getElementById("subject");
-    var msg = document.getElementById("message");
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var company = document.getElementById("subject").value;
+    var msg = document.getElementById("message").value;
     var errors = "";
     if (name.value == "") {
         name.className = 'error';
